@@ -14,5 +14,6 @@ SELECT [timestamp]
       ,[Reg_ Partner No_ (Ass_Liab)]
       ,[Blocked]
       ,[Phone]
+      ,[Global Dimension 2 Code]
   FROM [synonym].[Client]
 GO
