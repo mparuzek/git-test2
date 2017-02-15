@@ -10,6 +10,7 @@ SELECT [timestamp]
       ,[First Name]
       ,[Last Name]
       ,[Status]
+      ,[Phone]
   FROM [synonym].[Employee]
 GO
 
