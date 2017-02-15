@@ -6,7 +6,8 @@ GO
 CREATE VIEW [export].[Departments]  WITH ENCRYPTION AS
 SELECT dv.[Code] 
       ,dv.[Name]
-      ,dv.[Blocked] 
+      ,dv.[Blocked]
+      ,dv.[Type] 
   FROM [synonym].[DimensionValue] dv JOIN dbo.[IntegrationSetup] ise ON (
 			 dv.[Dimension Code] COLLATE SQL_Czech_CP1250_CS_AS = ise.[DepartmentDimensionCode] )
 			 
