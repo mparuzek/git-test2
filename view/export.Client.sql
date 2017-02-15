@@ -13,5 +13,6 @@ SELECT [timestamp]
       ,[Reg_ Partner No_ (Transaction)]
       ,[Reg_ Partner No_ (Ass_Liab)]
       ,[Blocked]
+      ,[Phone]
   FROM [synonym].[Client]
 GO
