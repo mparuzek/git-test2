@@ -8,6 +8,7 @@ CREATE VIEW export.FAClass WITH ENCRYPTION AS
 SELECT [Code]
       ,[Name]
       ,[DHIM]
+      ,[Blocked]
   FROM [synonym].[FAClass]
   WHERE [DHIM] = 1
 GO
