@@ -11,6 +11,7 @@ SELECT [timestamp]
       ,[Last Name]
       ,[Status]
       ,[Phone]
+      ,[Sex]
   FROM [synonym].[Employee]
 GO
 
