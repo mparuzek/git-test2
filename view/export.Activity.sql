@@ -8,7 +8,8 @@ SELECT dv.[Code]
       ,dv.[Name]
       ,dv.[Blocked]
       ,dv.[Type]
-      ,dv.[Valid From] 
+      ,dv.[Valid From]
+      ,dv.[Valid To] 
   FROM [synonym].[DimensionValue] dv JOIN dbo.[IntegrationSetup] ise ON (
 			 dv.[Dimension Code] COLLATE SQL_Czech_CP1250_CS_AS = ise.[ActivityDimensionCode] )
 
